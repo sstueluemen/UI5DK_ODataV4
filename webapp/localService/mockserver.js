@@ -425,7 +425,6 @@ sap.ui.define([
 		});
 
 		sResponseBody = JSON.stringify(oResponse);
-
 		return getSuccessResponse(sResponseBody);
 	}
 
@@ -446,6 +445,7 @@ sap.ui.define([
 
 			return oHelper;
 		}
+
 		return null;
 	}
 
