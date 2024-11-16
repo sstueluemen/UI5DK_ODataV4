@@ -61,7 +61,18 @@
 					"earlyRequests": true,
 					"operationMode": "Server"
 				}
-			}
+			},
+			"dataSources": {
+			"default": {
+		"uri": "https://services.odata.org/TripPinRESTierService/(S(id))/",
+		"type": "OData",
+		"settings": {
+			"odataVersion": "4.0"
+		}
+	}
+}
+
+			
 		}
 	}
 }
