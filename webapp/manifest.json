@@ -27,7 +27,10 @@
 		}
 	},
 	"sap.ui": {
-		"technology": "UI5"
+		"technology": "UI5",
+		"deviceTypes": {
+		   
+		}
 	},
 	"sap.ui5": {
 		"rootView": {
@@ -40,7 +43,8 @@
 			"libs": {
 				"sap.m": {},
 				"sap.ui.core": {}
-			}
+			},
+			"handleValidation": true
 		},
 		"models": {
 			"i18n": {
@@ -53,14 +57,14 @@
 					"fallbackLocale": ""
 				}
 			},
-			"": {
-				"dataSource": "default",
-				"preload": true,
-				"settings": {
-					"autoExpandSelect": true,
-					"earlyRequests": true,
-					"operationMode": "Server"
-				}
+				"": {
+					"dataSource": "default",
+					"preload": true,
+					"settings": {
+						"autoExpandSelect": true,
+						"operationMode": "Server",
+						"groupId": "$auto"
+					}
 			}
 		}
 	}
