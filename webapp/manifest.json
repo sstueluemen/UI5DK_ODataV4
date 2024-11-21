@@ -30,6 +30,7 @@
 		"technology": "UI5"
 	},
 	"sap.ui5": {
+		"theme": "sap_fiori_3",
 		"rootView": {
 			"viewName": "sap.ui.core.tutorial.odatav4.view.App",
 			"type": "XML",

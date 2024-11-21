@@ -33,6 +33,12 @@ sap.ui.define([
 
 			oMessageModelBinding.attachChange(this.onMessageBindingChange, this);
 			this._bTechnicalErrors = false;
+
+			var oModel = new sap.ui.model.odata.v4.ODataModel({
+    serviceUrl: "/odata/v4/YourService/",
+    synchronizationMode: "None"
+});
+sap.ui.getCore().setModel(oModel);
 		},
 
 		/* =========================================================== */
